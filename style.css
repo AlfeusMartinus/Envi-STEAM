@@ -78,9 +78,9 @@ nav .navigation ul li a {
     font-weight: 500;
     transition: 0.3s ease;
 }
-
+nav .navigation ul li a.active,
 nav .navigation ul li a:hover{
-    color: #E44D26;
+    color: #87d000c5;
 }
 
 
@@ -439,6 +439,53 @@ footer .copyright .pro-links i{
 footer .copyright .pro-links i:hover{
     background-color: #fdc93b;
     color: #2c2c2c;   
+}
+
+
+/* About */
+#about-home {
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)), url(https://picsum.photos/id/10/1920/946);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+#about-home h2{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+
+#about-container{
+    display: flex;
+    align-items: center;
+    padding: 8vw 8vw 2vw 8vw;
+}
+
+#about-container .about-img{
+    width: 60%;
+}
+
+#about-container .about-text{
+    width: 40%;
+    padding: 66px;
+}
+
+#about-container .about-text h2{
+    color: #29303b;
+    padding-bottom: 15px;
+}
+
+#about-container .about-text p{
+    color: #686f7a;
+    padding-bottom: 15px;
 }
 
 @media (max-width: 769px) {

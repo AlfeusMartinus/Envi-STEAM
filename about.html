@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Skripsi</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="" alt="Images">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Beranda</a></li>
+                <li><a class="active" href="about.html">Tentang</a></li>
+                <li><a href="learn.html">Belajar</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Beranda -->
+    <section id="about-home">
+        <h2>About/</h2>
+    </section>
+    <section id="about-container" >
+        <div class="about-img">
+            <img src="https://picsum.photos/id/100/679/575" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iusto quibusdam eligendi, inventore laudantium, perferendis aspernatur non distinctio nobis, facilis quaerat rem deleniti tempore vero ullam nemo. Incidunt, accusamus earum.</p>
+            <div class="about-fe">
+                <img src="https://picsum.photos/id/102/512/512" alt="">
+                <div class="fe-text">
+                    <h5>Lorem ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab officiis laborum pariatur, adipisci officia esse</p>
+
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="https://picsum.photos/id/102/512/512" alt="">
+                <div class="fe-text">
+                    <h5>Lorem ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab officiis laborum pariatur, adipisci officia esse</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <h1>Fitur Menarik</h1>
+        <p>Eaque quis iusto eius eum quas soluta consequuntur neque itaque maxime obcaecati corrupti omnis quo non quas</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i> 
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i> 
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i> 
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Navigasi</h3>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </div>
+        <div class="footer-col">
+            <h3>Tautan</h3>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </div>
+        <div class="footer-col">
+            <h3>Widget</h3>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </div>
+        <div class="footer-col">
+            <h3>Aturan</h3>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Informasi Kontak</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Masukan Email Anda">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+    </script>
+
+</body>
+
+</html>
