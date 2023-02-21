@@ -532,6 +532,121 @@ footer .copyright .pro-links i:hover{
     align-items: center;
 }
 
+/* Blog */
+
+#blog-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#blog-container .blogs{
+    width: 60%;
+}
+
+#blog-container .blogs img{
+    width: 100%;
+    border-radius: 19px;
+}
+
+#blog-container .blogs .post{
+    padding-bottom: 60px;
+}
+
+#blog-container .blogs .post h3{
+    color: #29303b;
+    padding: 15px 0 10px 0;
+}
+
+#blog-container .blogs .post p{
+    color: #757373;
+    padding-bottom: 20px;
+}
+
+#blog-container .blogs .post a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border-radius: 5px;
+}
+
+#blog-container .cate{
+    width: 30%;
+}
+
+#blog-container .cate h2{
+    padding-bottom: 7px;
+}
+
+#blog-container .cate a{
+    text-decoration: none;
+    color: #757373;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+#blog-container .blogpost{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#blog-container .blogpost p{
+    text-align: justify;
+    padding-bottom: 60px !important;
+}
+
+
+/* learn_inner */
+#course-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+}
+
+#course-inner .overview{
+    width: 70%;
+}
+
+#course-inner .overview .course-img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name{
+    width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2{
+    color: #29303b;
+}
+
+#course-inner .overview .course-head .c-name .star{
+    margin: 6px 0 ;
+}
+
+#course-inner .overview .course-head .c-name .star i{
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+
+#course-inner .overview .course-head .c-name p{
+    font-size: 15px;
+
+}
+
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
@@ -602,8 +717,8 @@ footer .copyright .pro-links i:hover{
         text-align: center;
     }
 
-    /* About */
 
+    /* About */
     #about-container {
         padding: 8vw 4vw 2vw 4vw;
     }
@@ -615,6 +730,23 @@ footer .copyright .pro-links i:hover{
     #trust .trust-img img {
         width: 50px;
         height: auto;
+    }
+
+
+    /* Blog */
+    #blog-container {
+        padding: 8vw 4vw;
+    }
+
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #blog-container .blogpost img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
     }
 }
 
@@ -634,6 +766,7 @@ footer .copyright .pro-links i:hover{
         margin-top: 40px;
         margin-bottom: 20px;
     }
+
 
     /* About  */
     #about-container {
@@ -663,6 +796,31 @@ footer .copyright .pro-links i:hover{
         margin: 10px 15px;
         height: auto;
     }
+
+
+    /* Blog */
+    #blog-container {
+        flex-direction: column;
+    }
+
+    #blog-container .blogs {
+        width: 100%;
+    }
+
+    #blog-container .cate {
+        width: 100%;
+    }
+
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #blog-container .blogpost img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 376px) {
@@ -670,5 +828,4 @@ footer .copyright .pro-links i:hover{
         width: 100%;
         margin-bottom: 20px;
     }
-    /* Contoh  */
 } 
