@@ -471,11 +471,15 @@ footer .copyright .pro-links i:hover{
 
 #about-container .about-img{
     width: 60%;
+    padding-right: 60px;
+}
+
+#about-container .about-img img{
+    width: 100%;
 }
 
 #about-container .about-text{
     width: 40%;
-    padding: 66px;
 }
 
 #about-container .about-text h2{
@@ -485,7 +489,47 @@ footer .copyright .pro-links i:hover{
 
 #about-container .about-text p{
     color: #686f7a;
-    padding-bottom: 15px;
+    padding-bottom: 300;
+}
+
+#about-container .about-text .about-fe{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+#about-container .about-text .about-fe img{
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+#about-container .about-text .about-fe .fe-text{
+    width: 90%;
+}
+
+#about-container .about-text .about-fe .fe-text h5{
+    font-size: 16px;
+    color: #29303b;
+}
+
+#trust{
+    text-align: center;
+    padding: 8vw;
+}
+
+#trust .trust-img img{
+    width: 90px;
+    height: auto;
+}
+
+#trust .trust-img{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 769px) {
@@ -557,6 +601,21 @@ footer .copyright .pro-links i:hover{
         padding: 8vw 8vw 4vw 8vw;
         text-align: center;
     }
+
+    /* About */
+
+    #about-container {
+        padding: 8vw 4vw 2vw 4vw;
+    }
+
+    #about-container .about-img {
+        padding-right: 30px;
+    }
+
+    #trust .trust-img img {
+        width: 50px;
+        height: auto;
+    }
 }
 
 @media (max-width: 475px) {
@@ -575,4 +634,40 @@ footer .copyright .pro-links i:hover{
         margin-top: 40px;
         margin-bottom: 20px;
     }
+
+    /* About  */
+    #about-container {
+        flex-direction: column-reverse;
+    }
+
+    #about-container .about-img {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #about-container .about-text {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #trust .trust-img {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #trust .trust-img img {
+        width: 60px;
+        margin: 10px 15px;
+        height: auto;
+    }
 }
+
+@media (max-width: 376px) {
+    footer input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} 
