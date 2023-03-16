@@ -740,6 +740,24 @@ footer .copyright .pro-links i:hover{
     background: rgb(50, 50, 136)
 }
 
+/* contact */
+#contact {
+    padding: 8vw;
+}
+
+#contact .getin {
+    width: 350px;
+
+}
+
+#contact .getin h2{
+    color: #2c234d;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
@@ -843,6 +861,20 @@ footer .copyright .pro-links i:hover{
     }
 
     /* Course Inner */
+    #course-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8vw 4vw;
+    }
+    #course-inner .overview {
+        width: 100%;
+    }
+    #course-inner .overview .course-img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 475px) {
