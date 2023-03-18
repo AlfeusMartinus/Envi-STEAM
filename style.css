@@ -740,6 +740,12 @@ footer .copyright .pro-links i:hover{
     background: rgb(50, 50, 136)
 }
 
+td {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
 /* contact */
 #contact {
     padding: 8vw;
