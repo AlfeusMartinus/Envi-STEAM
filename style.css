@@ -26,6 +26,11 @@ h6 {
     color: rgb(24,24,49);
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
 
 /* Navigation Bar */
 nav {
