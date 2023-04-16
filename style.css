@@ -13,7 +13,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(35,35,85);
+    color: rgb(35,35,85);   
 }
 
 span {
@@ -898,6 +898,8 @@ td {
     width: 100%;
     height: 100%;
 }
+
+/* Kuis Page */
 
 
 @media (max-width: 769px) {
