@@ -682,7 +682,7 @@ footer .copyright .pro-links i:hover {
 }
 
 .btn-prevnext{
-  margin-top: 35px;
+  margin-bottom: 33px;
 }
 
 .prev{
@@ -708,11 +708,10 @@ footer .copyright .pro-links i:hover {
 .kuis{
   text-decoration: none;
   font-size: 0.9rem;
-  padding: 15px 60px;
+  padding: 15px 74px;
   background-color: #87d000c5;
   color: #fff;
   border-radius: 5px;
-  margin-top: 50px;
 }
 
 #course-inner .learn p {
