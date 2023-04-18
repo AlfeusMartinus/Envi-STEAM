@@ -198,6 +198,13 @@ nav .navigation ul li a:hover{
     background: #f9f9ff;
     height: 100%;
     position: relative;
+    cursor: pointer;
+}
+
+#course .courses:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px 1px rgba(131, 123, 123, 0.2);
 }
 
 #course .courses img{
