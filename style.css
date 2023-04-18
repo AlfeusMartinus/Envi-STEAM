@@ -680,6 +680,40 @@ footer .copyright .pro-links i:hover {
   background-color: rgba(88, 56, 252, 0.1);
 }
 
+.btn-prevnext{
+  margin-top: 35px;
+}
+
+.prev{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 15px 28px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: rgb(21, 21, 100);
+  color: white;
+}
+
+.next{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 15px 28px;
+  background-color: rgb(21, 21, 100);
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.kuis{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 15px 60px;
+  background-color: #87d000c5;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
 #course-inner .learn p {
   font-size: 15px;
   padding-bottom: 15px;
