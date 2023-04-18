@@ -1,83 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Skripsi</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <div onclick="window.location.href='index.html'">
-            <img src="asset/logoweb.svg" alt="Images">
-        </div>
-        <div class="navigation">
-            <ul>
-                <i id="menu-close" class="fas fa-times"></i>
-                <li><a class="active" href="#">Beranda</a></li>
-                <li><a href="about.html">Tentang</a></li>
-                <li><a href="blog.html">Pembahasan</a></li>
-                <li><a href="learn.html">Materi</a></li>
-                <li><a href="./kuis/kuis.html">Kuis</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
-            <img id="menu-btn" src="asset/menu.png" alt="">
-        </div>
+      <div onclick="window.location.href='index.html'">
+        <img src="asset/logoweb.svg" alt="Images" />
+      </div>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a class="active" href="#">Beranda</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="blog.html">Pembahasan</a></li>
+          <li><a href="learn.html">Materi</a></li>
+          <li><a href="./kuis/kuis.html">Kuis</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+        <img id="menu-btn" src="asset/menu.png" alt="" />
+      </div>
     </nav>
 
     <!-- Beranda -->
     <section id="home">
-        <h2>Modul Pembelajaran Envi-STEAM</h2>
-        <p>Perubahan dan Pelestarian Lingkungan Hidup, menggunakan pendekatan STEAM (Science, Enginering, Art, and Mathematics)</p>
-        <div class="btn">
-            <a class="yellow" href="#course">Mulai Belajar</a>
-        </div>
+      <h2>Modul Pembelajaran Envi-STEAM</h2>
+      <p>
+        Perubahan dan Pelestarian Lingkungan Hidup, menggunakan pendekatan STEAM
+        (Science, Enginering, Art, and Mathematics)
+      </p>
+      <div class="btn">
+        <a class="yellow" href="#course">Mulai Belajar</a>
+      </div>
     </section>
 
     <!-- Features -->
     <section id="features">
-        <h1>Fitur Pembelajaran</h1>
-        <p>Fitur lengkap website pembelajaran ini, dari gambaran konsep hingga simulasi interaktif yang akan membawa kamu lebih dekat dengan kehidupan di sekitar kita!</p>
-        <div class="fea-base">
-            <div class="fea-box">
-                <i class="fas fa-users"></i>
-                <h3>Interaktif</h3>
-                <p>Membuat proses belajar lebih menyenangkan dan efektif</p>
-            </div>
-            <div class="fea-box">
-                <i class="fas fa-poll-h"></i> 
-                <h3>Pemahaman Materi</h3>
-                <p>Memahami materi dengan lebih baik dan menguji pemahaman tentang topik yang dibahas</p>
-            </div>
-            <div class="fea-box">
-                <i class="fas fa-question-circle"></i>
-                <h3>Kuis</h3>
-                <p>Menguji pemahamam terhadap materi yang telah dipelajari</p>
-            </div>
-            <!-- <div class="fea-box">
+      <h1>Fitur Pembelajaran</h1>
+      <p>
+        Fitur lengkap website pembelajaran ini, dari gambaran konsep hingga
+        simulasi interaktif yang akan membawa kamu lebih dekat dengan kehidupan
+        di sekitar kita!
+      </p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fas fa-users"></i>
+          <h3>Interaktif</h3>
+          <p>Membuat proses belajar lebih menyenangkan dan efektif</p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-poll-h"></i>
+          <h3>Pemahaman Materi</h3>
+          <p>
+            Memahami materi dengan lebih baik dan menguji pemahaman tentang
+            topik yang dibahas
+          </p>
+        </div>
+        <div class="fea-box">
+          <i class="fas fa-question-circle"></i>
+          <h3>Kuis</h3>
+          <p>Menguji pemahamam terhadap materi yang telah dipelajari</p>
+        </div>
+        <!-- <div class="fea-box">
                 <i class="fas fa-graduation-cap"></i> 
                 <h3>Lorem ipsum</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div> -->
-        </div>
+      </div>
     </section>
 
     <!-- Metode Ajar -->
     <section id="course">
-        <h1>Menu Utama</h1>
-        <!-- <p>Eaque quis iusto eius eum quas soluta consequuntur neque itaque maxime obcaecati corrupti omnis quo non quas</p> -->
-        <div class="course-box">
-            <div onclick="window.location.href='learn-inner.html'" class="courses">
-                <img src="https://picsum.photos/id/89/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Petunjuk Penggunaan</h6>
-                    <!-- <div class="star">
+      <h1>Menu Utama</h1>
+      <!-- <p>Eaque quis iusto eius eum quas soluta consequuntur neque itaque maxime obcaecati corrupti omnis quo non quas</p> -->
+      <div class="course-box">
+        <div onclick="window.location.href='learn-inner.html'" class="courses">
+          <img src="https://picsum.photos/id/89/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Petunjuk Penggunaan</h6>
+            <!-- <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -85,216 +111,195 @@
                         <i class="fas fa-star"></i>
                         <span>(123)</span>
                     </div> -->
-                </div>
-                <div class="cost">
-                    Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner2.html'" class="courses">
-                <img src="https://picsum.photos/id/90/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Pendahuluan</h6>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner3.html'" class="courses">
-                <img src="https://picsum.photos/id/91/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Kegiatan Pembelajaran 1</h6>
-                    <h7>Keseimbangan perubahan lingkungan hidup</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner4.html'" class="courses">
-                <img src="https://picsum.photos/id/92/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Percobaan Sains 1</h6>
-                    <h7>Gagasan perubahan lingkungan hidup</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner5.html'" class="courses">
-                <img src="https://picsum.photos/id/93/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Kegiatan Pembelajaran 2</h6>
-                    <h7>Pencemaran lingkungan hidup</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner6.html'" class="courses">
-                <img src="https://picsum.photos/id/94/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Percobaan Sains 2</h6>
-                    <h7>Permasalahan pencemaran</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner7.html'" class="courses">
-                <img src="https://picsum.photos/id/95/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Akumulasi Bahan Rantai Makanan</h6>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner8.html'" class="courses">
-                <img src="https://picsum.photos/id/96/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Kegiatan Pembelajaran 3</h6>
-                    <h7>Penanganan Limbah</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner9.html'" class="courses">
-                <img src="https://picsum.photos/id/101/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Percobaan Sains 3</h6>
-                    <h7>Gagasan produk sains</h7>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div onclick="window.location.href='learn-inner10.html'" class="courses">
-                <img src="https://picsum.photos/id/98/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Kegiatan Pembelajaran 4</h6>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div class="courses">
-                <img src="https://picsum.photos/id/99/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Glosarium</h6>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
-            <div class="courses">
-                <img src="https://picsum.photos/id/100/1920/1280" alt="" srcset="">
-                <div class="details">
-                    <span>Updated 26/2/23</span>
-                    <h6>Daftar Pustaka</h6>
-                    <!-- <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>(123)</span>
-                    </div> -->
-                </div>
-                <div class="cost">
-                     Klik
-                </div>
-            </div>
+          </div>
+          <div class="cost">Klik</div>
         </div>
+        <div onclick="window.location.href='learn-inner2.html'" class="courses">
+          <img src="https://picsum.photos/id/90/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Pendahuluan</h6>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner3.html'" class="courses">
+          <img src="https://picsum.photos/id/91/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Kegiatan Pembelajaran 1</h6>
+            <h7>Keseimbangan perubahan lingkungan hidup</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner4.html'" class="courses">
+          <img src="https://picsum.photos/id/92/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Percobaan Sains 1</h6>
+            <h7>Gagasan perubahan lingkungan hidup</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner5.html'" class="courses">
+          <img src="https://picsum.photos/id/93/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Kegiatan Pembelajaran 2</h6>
+            <h7>Pencemaran lingkungan hidup</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner6.html'" class="courses">
+          <img src="https://picsum.photos/id/94/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Percobaan Sains 2</h6>
+            <h7>Permasalahan pencemaran</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner7.html'" class="courses">
+          <img src="https://picsum.photos/id/95/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Akumulasi Bahan Rantai Makanan</h6>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner8.html'" class="courses">
+          <img src="https://picsum.photos/id/96/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Kegiatan Pembelajaran 3</h6>
+            <h7>Penanganan Limbah</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div onclick="window.location.href='learn-inner9.html'" class="courses">
+          <img src="https://picsum.photos/id/101/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Percobaan Sains 3</h6>
+            <h7>Gagasan produk sains</h7>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div
+          onclick="window.location.href='learn-inner10.html'"
+          class="courses"
+        >
+          <img src="https://picsum.photos/id/98/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Kegiatan Pembelajaran 4</h6>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div class="courses">
+          <img src="https://picsum.photos/id/99/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Glosarium</h6>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+        <div class="courses">
+          <img src="https://picsum.photos/id/100/1920/1280" alt="" srcset="" />
+          <div class="details">
+            <span>Updated 26/2/23</span>
+            <h6>Daftar Pustaka</h6>
+            <!-- <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div> -->
+          </div>
+          <div class="cost">Klik</div>
+        </div>
+      </div>
     </section>
 
     <!-- Registrasi -->
@@ -329,20 +334,29 @@
 
     <!-- Profile -->
     <section id="experts">
-        <h1>Pengembang</h1>
-        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
-        <div class="expert-box">
-            <div class="profile">
-                <img src="https://picsum.photos/id/64/193/193" alt="">
-                <h6>Vika Viktoria</h6>
-                <p>Pendidikan Biologi UNJ - 2019</p>
-                <div class="pro-links">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                </div>
-            </div>
-            <!-- <div class="profile">
+      <h1>Stakeholders</h1>
+      <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
+      <div class="expert-box">
+        <div class="profile">
+          <img src="https://picsum.photos/id/64/193/193" alt="" />
+          <h6>Vika Viktoria</h6>
+          <p>Pendidikan Biologi UNJ - 2019</p>
+          <div class="pro-links">
+            <i class="fa-brands fa-instagram fa-fade"></i>
+            <i class="fa-brands fa-linkedin fa-fade"></i>
+          </div>
+        </div>
+        <div class="profile">
+          <img src="/asset/profile-2.svg" alt="Foto Alfeus Martinus" />
+          <h6>Alfeus Martinus</h6>
+          <p>Software Engineering UPI - 2022</p>
+          <div class="pro-links">
+            <i class="fa-brands fa-instagram fa-fade"></i>
+            <i class="fa-brands fa-linkedin fa-fade"></i>
+            <i class="fa-brands fa-github fa-fade"></i>
+          </div>
+        </div>
+        <!-- <div class="profile">
                 <img src="https://picsum.photos/id/64/193/193" alt="">
                 <h6>Nama</h6>
                 <p>Jabatan</p>
@@ -362,69 +376,67 @@
                     <i class="fab fa-linkedin-in"></i>
                 </div>
             </div> -->
-        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div>
-            <img src="asset/logoweb.svg" alt="">
-        </div>
-        <div class="footer-col">
-            <h3>Navigasi</h3>
-            <li>Beranda</li>
-            <li>Tentang</li>
-            <li>Blog</li>
-            <li>Belajar</li>
-            <li>Kontak</li>
-        </div>
-        <div class="footer-col">
-            <h3>Social Media</h3>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>Twitter</li>
-        </div>
-        <div class="footer-col">
-            <h3>Legal</h3>
-            <li>General Info</li>
-            <li>Privacy Policy</li>
-            <li>Terms Of Service</li>
-        </div>
-        <div class="footer-col">
-            <h3>Indonesia</h3>
-            <li>Cimahi</li>
-            <li>40534</li>
-        </div>
+      <div>
+        <img src="asset/logoweb.svg" alt="" />
+      </div>
+      <div class="footer-col">
+        <h3>Navigasi</h3>
+        <li>Beranda</li>
+        <li>Tentang</li>
+        <li>Blog</li>
+        <li>Belajar</li>
+        <li>Kontak</li>
+      </div>
+      <div class="footer-col">
+        <h3>Social Media</h3>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Linkedin</li>
+        <li>Twitter</li>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <li>General Info</li>
+        <li>Privacy Policy</li>
+        <li>Terms Of Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Indonesia</h3>
+        <li>Cimahi</li>
+        <li>40534</li>
+      </div>
 
-        <div class="footer-col">
-            <h3>Informasi Kontak</h3>
-            <p>Masukan email anda untuk mendapatkan info terbaru</p>
-            <div class="subscribe">
-                <input type="text" placeholder="Masukan Email Anda">
-                <a href="#" class="yellow">SUBMIT</a>
-            </div>
+      <div class="footer-col">
+        <h3>Informasi Kontak</h3>
+        <p>Masukan email anda untuk mendapatkan info terbaru</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Masukan Email Anda" />
+          <a href="#" class="yellow">SUBMIT</a>
         </div>
-        <div class="copyright">
-            <p>Copyright ©2023 All rights reserved</p>
-            <div class="pro-links">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
-            </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©2023 All rights reserved</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
         </div>
+      </div>
     </footer>
-    
+
     <script src="script.js"></script>
     <script>
-        $('#menu-close').click(function () {
-            $('nav .navigation ul').removeClass('active')
-        });
-        $('#menu-btn').click(function () {
-            $('nav .navigation ul').addClass('active')
-        });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
