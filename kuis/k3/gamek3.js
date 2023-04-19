@@ -14,7 +14,7 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch("questionsk2.json")
+fetch("questionsk3.json")
     .then(res => {
         return res.json();
     })
@@ -43,7 +43,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign("/kuis/k2/endk2.html"); 
+        return window.location.assign("/kuis/k3/endk3.html"); 
     }
 
     questionCounter++;

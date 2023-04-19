@@ -1,29 +1,29 @@
 [
   {
-    "question": "Kebakaran hutan yang terjadi di beberapa provinsi di Indonesia membuat konsentrasi CO2 banyak di atmosfer. Hal tersebut dapat menimbulkan…",
-    "choice1": "Pemanasan global",
-    "choice2": "Menipisnya ozon",
-    "choice3": "Terjadinya hujan asam",
-    "choice4": "Kematian tumbuhan",
-    "choice5": "Peristiwa eutrofikasi",
-    "answer": 1
+    "question": "Perubahan keseimbangan ekosistem di alam dapat terjadi karena adanya…",
+    "choice1": "Pertanian dengan sistem rotasi",
+    "choice2": "Pertanian dengan sistem monokultur",
+    "choice3": "Pemakaian pupuk kandang",
+    "choice4": "Pemakaian bioinsektisida",
+    "choice5": "Pertanian sistem tumpangsari",
+    "answer": 2
   },
   {
-    "question": "Penyebab terjadinya kerusakan lingkungan pada gambar ini diakibatkan oleh tindakan manusia pada gambar ini yaitu…",
-    "choice1": "Membuang sampah sembarangan",
-    "choice2": "Menutup daerah penampungan air",
-    "choice3": "Perubahan fungsi lahan pertanian",
-    "choice4": "Penebangan hutan secara liar",
-    "choice5": "Drainase air yang tidak dipelihara",
+    "question": "Ekosistem merupakan suatu interaksi antar faktor biotik dan abiotic pada suatu kesatuan terintegrasi. Berikut yang bukan merupakan pernyataan yang benar mengenai agroekosistem adalah...",
+    "choice1": "Didominasi oleh tanaman sejenis",
+    "choice2": "Memiliki diversitas yang rendah",
+    "choice3": "Umur dan tipe tanaman berbeda",
+    "choice4": "Terdapat tambahan nutrisi",
+    "choice5": "Pengendalian hama",
+    "answer": 3
+  },
+  {
+    "question": "Sampah plastik dapat menyebabkan penurunan daya dukung lingkungan. Upaya penanggulangan yang tepat terhadap hal tersebut ialah…",
+    "choice1": "Melarang masyarakat menggunakan plastik",
+    "choice2": "Membakar plastik",
+    "choice3": "Meneliti cara penguraian plastik",
+    "choice4": "Melakukan daur ulang sampah plastik",
+    "choice5": "Mengubur plastik ke dalam tanah",
     "answer": 4
-  },
-  {
-    "question": "Berikut ini yang dimaksud dari biomassa dari suatu ekosistem ialah…",
-    "choice1": "Komponen abiotik yang memengaruhi kehidupan biotik",
-    "choice2": "Komponen biotik yang ada dalam ekosistem",
-    "choice3": "Jumlah komponen abiotik dan biotik dalam ekosistem",
-    "choice4": "Komponen biotik, abiotik, dan jumlah energi dalam piramida energy",
-    "choice5": "Jumlah energi yang berada dalam ekosistem",
-    "answer": 5
   }
 ]

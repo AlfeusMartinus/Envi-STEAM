@@ -27,5 +27,5 @@ saveHighScore = (e) => {
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('./kuisk2.html');
+    window.location.assign('kuisk3.html');
 }
