@@ -681,31 +681,30 @@ footer .copyright .pro-links i:hover {
   background-color: rgba(88, 56, 252, 0.1);
 }
 
-.btn-prevnext{
+.btn-prevnext {
   margin-bottom: 33px;
+  margin-top: 23px;
 }
 
-.prev{
+.prev {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 15px 28px;
   border-radius: 5px;
-  margin-top: 50px;
   background-color: rgb(21, 21, 100);
   color: white;
 }
 
-.next{
+.next {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 15px 28px;
   background-color: rgb(21, 21, 100);
   color: #fff;
   border-radius: 5px;
-  margin-top: 50px;
 }
 
-.kuis{
+.kuis {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 15px 74px;
@@ -935,7 +934,6 @@ td {
   height: 100%;
 }
 
-
 @media (max-width: 769px) {
   nav {
     padding: 15px 20px;
@@ -1155,6 +1153,10 @@ td {
 
   #contact .form .form-row input {
     width: 100%;
+  }
+
+  .btn-prevnext {
+    margin-top: 27px;
   }
 }
 

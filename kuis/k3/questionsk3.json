@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Kebakaran hutan yang terjadi di beberapa provinsi di Indonesia membuat konsentrasi CO2 banyak di atmosfer. Hal tersebut dapat menimbulkan…",
+    "choice1": "Pemanasan global",
+    "choice2": "Menipisnya ozon",
+    "choice3": "Terjadinya hujan asam",
+    "choice4": "Kematian tumbuhan",
+    "choice5": "Peristiwa eutrofikasi",
+    "answer": 1
+  },
+  {
+    "question": "Penyebab terjadinya kerusakan lingkungan pada gambar ini diakibatkan oleh tindakan manusia pada gambar ini yaitu…",
+    "choice1": "Membuang sampah sembarangan",
+    "choice2": "Menutup daerah penampungan air",
+    "choice3": "Perubahan fungsi lahan pertanian",
+    "choice4": "Penebangan hutan secara liar",
+    "choice5": "Drainase air yang tidak dipelihara",
+    "answer": 4
+  },
+  {
+    "question": "Berikut ini yang dimaksud dari biomassa dari suatu ekosistem ialah…",
+    "choice1": "Komponen abiotik yang memengaruhi kehidupan biotik",
+    "choice2": "Komponen biotik yang ada dalam ekosistem",
+    "choice3": "Jumlah komponen abiotik dan biotik dalam ekosistem",
+    "choice4": "Komponen biotik, abiotik, dan jumlah energi dalam piramida energy",
+    "choice5": "Jumlah energi yang berada dalam ekosistem",
+    "answer": 5
+  }
+]
