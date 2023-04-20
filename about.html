@@ -1,96 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Skripsi</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envi-STEAM | Tentang</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Animated On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/asset/favicon.svg" type="image/x-icon" />
 
-    <link rel="stylesheet" href="style.css">
-
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <div onclick="window.location.href='index.html'">
-        <img src="asset/logoweb.svg" alt="Images">
-        </div>
-        <div class="navigation">
-            <ul>
-                <i id="menu-close" class="fas fa-times"></i>
-                <li><a href="index.html">Beranda</a></li>
-                <li><a class="active" href="about.html">Tentang</a></li>
-                <li><a href="blog.html">Pembahasan</a></li>
-                <li><a href="learn.html">Materi</a></li>
-                <li><a href="./kuis/kuis.html">Kuis</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
-            <img id="menu-btn" src="asset/menu.png" alt="">
-        </div>
+      <div onclick="window.location.href='index.html'">
+        <img src="asset/logoweb.svg" alt="Images" />
+      </div>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a class="active" href="about.html">Tentang</a></li>
+          <li><a href="blog.html">Pembahasan</a></li>
+          <li><a href="learn.html">Materi</a></li>
+          <li><a href="./kuis/kuis.html">Kuis</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+        <img id="menu-btn" src="asset/menu.png" alt="" />
+      </div>
     </nav>
 
     <!-- Beranda -->
     <section id="about-home">
-        <h2>Tentang Kami</h2>
+      <h2>Tentang Kami</h2>
     </section>
-    <section id="about-container" >
-        <div class="about-img">
-            <img src="https://picsum.photos/id/100/679/575" alt="">
+    <section
+      id="about-container"
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
+    >
+      <div class="about-img">
+        <img src="/asset/bg-in-about.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>Selamat datang di website pembelajaran Envi-STEAM</h2>
+        <p>
+          Website pembelajaran ini didesain untuk membantu Anda dalam mengejar
+          tujuan belajar Anda. Kami menyediakan materi terkait lingkungan yang
+          mencakup berbagai topik dan tingkat kesulitan, dari pemula hingga
+          mahir.
+        </p>
+        <div class="about-fe">
+          <img src="/asset/bio-in-about2.svg" alt="" />
+          <div class="fe-text">
+            <h5>Biologi</h5>
+            <p>
+              Ilmu biologi membahas tentang kehidupan dan karakteristik makhluk
+              hidup, termasuk interaksi makhluk hidup dengan lingkungan tempat
+              mereka hidup.
+            </p>
+          </div>
         </div>
-        <div class="about-text">
-            <h2>Selamat datang di website pembelajaran Envi-STEAM</h2>
-            <p>Website pembelajaran ini didesain untuk membantu Anda dalam mengejar tujuan belajar Anda. Kami menyediakan berbagai jenis materi pembelajaran yang mencakup berbagai topik dan tingkat kesulitan, dari pemula hingga mahir.</p>
-            <div class="about-fe">
-                <img src="https://picsum.photos/id/102/512/512" alt="">
-                <div class="fe-text">
-                    <h5>Biologi</h5>
-                    <p>Tim kami terdiri dari berbagai ahli di bidangnya masing-masing, seperti matematika, sains, bahasa, sejarah, dan masih banyak lagi.</p>
-
-                </div>
-            </div>
-            <div class="about-fe">
-                <img src="https://picsum.photos/id/102/512/512" alt="">
-                <div class="fe-text">
-                    <h5>Lingkungan</h5>
-                    <p>Tim kami terdiri dari berbagai ahli di bidangnya masing-masing, seperti matematika, sains, bahasa, sejarah, dan masih banyak lagi.</p>
-                    
-                </div>
-            </div>
+        <div class="about-fe">
+          <img src="/asset/bio-in-about.svg" alt="" />
+          <div class="fe-text">
+            <h5>Lingkungan</h5>
+            <p>
+              Lingkungan berperan penting dalam kehidupan makhluk hidup karena
+              memberikan sumber daya dan kondisi yang diperlukan untuk
+              kelangsungan hidup dan berkembang biaknya suatu organisme.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Features -->
-    <section id="features">
+    <section id="features" style="margin-bottom: 150px">
+      <div data-aos="zoom-in" data-aos-duration="1500">
         <h1>Fitur Pembelajaran</h1>
-        <p>Fitur lengkap website pembelajaran ini, dari gambaran konsep hingga simulasi interaktif yang akan membawa kamu lebih dekat dengan kehidupan di sekitar kita!</p>
-        <div class="fea-base">
-            <div class="fea-box">
-                <i class="fas fa-users"></i>
-                <h3>Interaktif</h3>
-                <p>Membuat proses belajar lebih menyenangkan dan efektif</p>
-            </div>
-            <div class="fea-box">
-                <i class="fas fa-poll-h"></i> 
-                <h3>Pemahaman Materi</h3>
-                <p>Memahami materi dengan lebih baik dan menguji pemahaman tentang topik yang dibahas</p>
-            </div>
-            <div class="fea-box">
-                <i class="fas fa-question-circle"></i>
-                <h3>Kuis</h3>
-                <p>Menguji pemahamam terhadap materi yang telah dipelajari</p>
-            </div>
-            <!-- <div class="fea-box">
-                <i class="fas fa-graduation-cap"></i> 
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div> -->
+        <p>
+          Fitur lengkap website pembelajaran ini, dari gambaran konsep hingga
+          simulasi interaktif yang akan membawa kamu lebih dekat dengan
+          kehidupan di sekitar kita!
+        </p>
+      </div>
+      <div class="fea-base">
+        <div class="fea-box" data-aos="fade-right" data-aos-duration="1500">
+          <i class="fas fa-users"></i>
+          <h3>Interaktif</h3>
+          <p>Membuat proses belajar lebih menyenangkan dan efektif</p>
         </div>
+        <div class="fea-box" data-aos="fade-up" data-aos-duration="1500">
+          <i class="fas fa-poll-h"></i>
+          <h3>Pemahaman Materi</h3>
+          <p>
+            Memahami materi dengan lebih baik dan menguji pemahaman tentang
+            topik yang dibahas
+          </p>
+        </div>
+        <div class="fea-box" data-aos="fade-left" data-aos-duration="1500">
+          <i class="fas fa-question-circle"></i>
+          <h3>Kuis</h3>
+          <p>Menguji pemahamam terhadap materi yang telah dipelajari</p>
+        </div>
+        <!-- <div class="fea-box">
+                                  <i class="fas fa-graduation-cap"></i> 
+                                  <h3>Lorem ipsum</h3>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              </div> -->
+      </div>
     </section>
 
-    <section id="trust">
-        <h1>Media Partner</h1>
+    <!-- <section id="trust" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0">
+        <h1>Support</h1>
         <p>Eaque quis iusto eius eum quas soluta consequuntur neque itaque maxime obcaecati corrupti omnis quo non quas</p>
         <div class="trust-img">
             <img src="https://picsum.photos/id/121/512/512" alt="">
@@ -100,67 +138,70 @@
             <img src="https://picsum.photos/id/125/512/512" alt="">
             <img src="https://picsum.photos/id/126/512/512" alt="">
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer>
-        <div>
-            <img src="asset/logoweb.svg" alt="">
-        </div>
-        <div class="footer-col">
-            <h3>Navigasi</h3>
-            <li>Beranda</li>
-            <li>Tentang</li>
-            <li>Blog</li>
-            <li>Belajar</li>
-            <li>Kontak</li>
-        </div>
-        <div class="footer-col">
-            <h3>Social Media</h3>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>Twitter</li>
-        </div>
-        <div class="footer-col">
-            <h3>Legal</h3>
-            <li>General Info</li>
-            <li>Privacy Policy</li>
-            <li>Terms Of Service</li>
-        </div>
-        <div class="footer-col">
-            <h3>Indonesia</h3>
-            <li>Cimahi</li>
-            <li>40534</li>
-        </div>
+      <div>
+        <img src="asset/logoweb.svg" alt="" />
+      </div>
+      <div class="footer-col">
+        <h3>Navigasi</h3>
+        <li>Beranda</li>
+        <li>Tentang</li>
+        <li>Blog</li>
+        <li>Belajar</li>
+        <li>Kontak</li>
+      </div>
+      <div class="footer-col">
+        <h3>Social Media</h3>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Linkedin</li>
+        <li>Twitter</li>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <li>General Info</li>
+        <li>Privacy Policy</li>
+        <li>Terms Of Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Indonesia</h3>
+        <li>Cimahi</li>
+        <li>40534</li>
+      </div>
 
-        <div class="footer-col">
-            <h3>Informasi Kontak</h3>
-            <p>Masukan email anda untuk mendapatkan info terbaru</p>
-            <div class="subscribe">
-                <input type="text" placeholder="Masukan Email Anda">
-                <a href="#" class="yellow">SUBMIT</a>
-            </div>
+      <div class="footer-col">
+        <h3>Informasi Kontak</h3>
+        <p>Masukan email anda untuk mendapatkan info terbaru</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Masukan Email Anda" />
+          <a href="#" class="yellow">SUBMIT</a>
         </div>
-        <div class="copyright">
-            <p>Copyright ©2023 All rights reserved</p>
-            <div class="pro-links">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
-            </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©2023 All rights reserved</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
         </div>
+      </div>
     </footer>
-    
+
     <script>
-        $('#menu-close').click(function () {
-            $('nav .navigation ul').removeClass('active')
-        });
-        $('#menu-btn').click(function () {
-            $('nav .navigation ul').addClass('active')
-        });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
     </script>
-
-</body>
-
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
