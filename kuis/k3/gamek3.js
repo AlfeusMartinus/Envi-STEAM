@@ -1,10 +1,10 @@
-const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
-const progressText = document.getElementById('progressText');
-const scoreText = document.getElementById('score');
-const progressBarFull = document.getElementById('progressBarFull');
-const loader = document.getElementById('loader');
-const game = document.getElementById('game');
+const question = document.getElementById("question");
+const choices = Array.from(document.getElementsByClassName("choice-text"));
+const progressText = document.getElementById("progressText");
+const scoreText = document.getElementById("score");
+const progressBarFull = document.getElementById("progressBarFull");
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -15,81 +15,81 @@ let availableQuestions = [];
 let questions = [];
 
 fetch("questionsk3.json")
-    .then(res => {
-        return res.json();
-    })
-    .then(loadedQuestions => {
-        console.log(loadedQuestions);
-        questions = loadedQuestions;
-        startGame();  
-    })
-    .catch (err => {
-        console.error(err);
-    })
+  .then((res) => {
+    return res.json();
+  })
+  .then((loadedQuestions) => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 
 // Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
 
 startGame = () => {
-    questionCounter = 0;
-    score = 0;
-    availableQuestions = [...questions];
-    getNewQuestion();
-    game.classList.remove('hidden');
-    loader.classList.add('hidden');
-}
-
-getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score);
-        return window.location.assign("/kuis/k3/endk3.html"); 
-    }
-
-    questionCounter++;
-    progressText.innerText = `Pertanyaan ${questionCounter}/${MAX_QUESTIONS}`;
-
-    // update progress bar
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
-    currentQuestion = availableQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
-
-    choices.forEach( choice => {
-        const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number]
-    });
-
-    availableQuestions.splice(questionIndex, 1);
-
-    acceptingAnswers = true;
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...questions];
+  getNewQuestion();
+  game.classList.remove("hidden");
+  loader.classList.add("hidden");
 };
 
-choices.forEach( choice => {
-    choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return;
+getNewQuestion = () => {
+  if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    localStorage.setItem("mostRecentScore", score);
+    return window.location.assign("/kuis/k3/endk3.html");
+  }
 
-        acceptingAnswers = false;
-        const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset["number"];
+  questionCounter++;
+  progressText.innerText = `Pertanyaan ${questionCounter}/${MAX_QUESTIONS}`;
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+  // update progress bar
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-            if (classToApply === 'correct') {
-                incrementScore(CORRECT_BONUS);
-            }
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  currentQuestion = availableQuestions[questionIndex];
+  question.innerText = currentQuestion.question;
 
-        selectedChoice.parentElement.classList.add(classToApply);
-        setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion(); 
-        }, 1000);
-    });
+  choices.forEach((choice) => {
+    const number = choice.dataset["number"];
+    choice.innerText = currentQuestion["choice" + number];
+  });
+
+  availableQuestions.splice(questionIndex, 1);
+
+  acceptingAnswers = true;
+};
+
+choices.forEach((choice) => {
+  choice.addEventListener("click", (e) => {
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset["number"];
+
+    const classToApply =
+      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+    if (classToApply === "correct") {
+      incrementScore(CORRECT_BONUS);
+    }
+
+    selectedChoice.parentElement.classList.add(classToApply);
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply);
+      getNewQuestion();
+    }, 1000);
+  });
 });
 
-incrementScore = num => {
-    score += num;
-    scoreText.innerText = score;
-}
-
+incrementScore = (num) => {
+  score += num;
+  scoreText.innerText = score;
+};
