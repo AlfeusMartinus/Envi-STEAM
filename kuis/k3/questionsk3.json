@@ -1,29 +1,29 @@
 [
   {
-    "question": "Perubahan keseimbangan ekosistem di alam dapat terjadi karena adanya…",
-    "choice1": "Pertanian dengan sistem rotasi",
-    "choice2": "Pertanian dengan sistem monokultur",
-    "choice3": "Pemakaian pupuk kandang",
-    "choice4": "Pemakaian bioinsektisida",
-    "choice5": "Pertanian sistem tumpangsari",
-    "answer": 2
+    "question": "Di kota besar pasar modern tidak lagi menggunakan kantong plastik sebagai wadah pembelian barang belanja. Oleh karena itu, konsumen diharuskan membawa kantong belanja sendiri. Kebijakan tersebut bertujuan menghemat sumber daya alam dengan cara...",
+    "choice1": "Reuse",
+    "choice2": "Repair",
+    "choice3": "Recycle",
+    "choice4": "Reduce",
+    "choice5": "Recovery",
+    "answer": 4
   },
   {
-    "question": "Ekosistem merupakan suatu interaksi antar faktor biotik dan abiotic pada suatu kesatuan terintegrasi. Berikut yang bukan merupakan pernyataan yang benar mengenai agroekosistem adalah...",
-    "choice1": "Didominasi oleh tanaman sejenis",
-    "choice2": "Memiliki diversitas yang rendah",
-    "choice3": "Umur dan tipe tanaman berbeda",
-    "choice4": "Terdapat tambahan nutrisi",
-    "choice5": "Pengendalian hama",
+    "question": "Proses pengolahan limbah cair pada instalasi pengolahan limbah cair di daerah perkotaan salah satunya memberikan bahan disinfektan. Tujuan penggunaan disinfektas ialah...",
+    "choice1": "Mengandung oksigen terlarut",
+    "choice2": "Mengendapkan pasir dan partikel",
+    "choice3": "Mematikan mikroorganisme patogen",
+    "choice4": "Tidak ada ganggang yang tumbuh",
+    "choice5": "Mematikan seluruh mikroorganisme",
     "answer": 3
   },
   {
-    "question": "Sampah plastik dapat menyebabkan penurunan daya dukung lingkungan. Upaya penanggulangan yang tepat terhadap hal tersebut ialah…",
-    "choice1": "Melarang masyarakat menggunakan plastik",
-    "choice2": "Membakar plastik",
-    "choice3": "Meneliti cara penguraian plastik",
-    "choice4": "Melakukan daur ulang sampah plastik",
-    "choice5": "Mengubur plastik ke dalam tanah",
-    "answer": 4
+    "question": "Penggunaan plastik saat ini masih banyak digunakan. Hal ini dikarenakan harganya yang murah, sangat ringan sehingga mudah dibawa ke mana-mana. Dengan tuntutan gaya hidup yang super cepat dan praktis, tak heran penggunaan plastik berupa botol minuman dan kemasan makanan semakin meningkat, akan tetapi dalam menguraikan plastik tersebut lingkungan membutuhkan waktu yang sangat panjang. Solusi yang tepat dalam menangani permasalahan lingkungan tersebut ialah...",
+    "choice1": "Menghancurkan sampah plastik dengan mesin",
+    "choice2": "Membakar sampah plastik dengan alat insinerator",
+    "choice3": "Mengganti dengan bioplastik berbahan dari pati",
+    "choice4": "Menimbun sampah plastik dalam tanah",
+    "choice5": "Melakukan daur ulang sampah plastik",
+    "answer": 3
   }
 ]
