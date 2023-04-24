@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Perubahan keseimbangan ekosistem di alam dapat terjadi karena adanya...",
+    "choice1": "Pertanian dengan sistem rotasi",
+    "choice2": "Pertanian dengan sistem monokultur",
+    "choice3": "Pemakaian pupuk kandang",
+    "choice4": "Pemakaian bioinsektisida",
+    "choice5": "Pertanian sistem tumpangsari",
+    "answer": 2
+  },
+  {
+    "question": "Ekosistem merupakan suatu interaksi antar faktor biotik dan abiotic pada suatu kesatuan terintegrasi. Berikut yang bukan merupakan pernyataan yang benar mengenai agroekosistem adalah...",
+    "choice1": "Didominasi oleh tanaman sejenis",
+    "choice2": "Memiliki diversitas yang rendah",
+    "choice3": "Umur dan tipe tanaman berbeda",
+    "choice4": "Terdapat tambahan nutrisi",
+    "choice5": "Pengendalian hama",
+    "answer": 3
+  },
+  {
+    "question": "Sampah plastik dapat menyebabkan penurunan daya dukung lingkungan. Upaya penanggulangan yang tepat terhadap hal tersebut ialah...",
+    "choice1": "Melarang masyarakat menggunakan plastik",
+    "choice2": "Membakar plastik",
+    "choice3": "Meneliti cara penguraian plastik",
+    "choice4": "Melakukan daur ulang sampah plastik",
+    "choice5": "Mengubur plastik ke dalam tanah",
+    "answer": 4
+  }
+]
