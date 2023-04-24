@@ -934,6 +934,22 @@ td {
   height: 100%;
 }
 
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.checkbox-wrapper label {
+  font-size: 11px;
+}
+
 @media (max-width: 769px) {
   nav {
     padding: 15px 20px;
