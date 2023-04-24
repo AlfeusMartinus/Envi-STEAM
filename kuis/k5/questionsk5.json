@@ -126,57 +126,54 @@
     "answer": 3
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
-    "answer": 1
+    "question": "Hujan asam dapat terjadi apabila di atmosfer banyak mengandung gas...",
+    "choice1": "CO2",
+    "choice2": "CO ",
+    "choice3": "N2",
+    "choice4": "SO2",
+    "choice5": "CH2",
+    "answer": 4
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
-    "answer": 1
+    "question": "Perubahan keseimbangan ekosistem di alam dapat terjadi karena adanya...",
+    "choice1": "Pertanian dengan sistem rotasi",
+    "choice2": "Pertanian dengan sistem monokultur ",
+    "choice3": "Pemakaian pupuk kandang",
+    "choice4": "Pemakaian bioinsektisida",
+    "choice5": "Pertanian sistem tumpangsari",
+    "answer": 2
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
-    "answer": 1
+    "question": "Seorang petani tengah menanam padi di sawah, petani tersebut memberikan pupuk pada tanamannya di saat hujan, sehingga pupuk tersebut jatuh dan masuk kedalam aliran air yang mengarah ke danau. Dampak dari peristiwa tersebut ialah...",
+    "choice1": "Meningkatnya tanaman pertanian dan tanaman di danau",
+    "choice2": "Meningkatnya tanaman pertanian dan menurunnya tanaman di danau ",
+    "choice3": "Menurunnya tanaman pertanian dan meningkatnya tanaman di danau",
+    "choice4": "Menurunnya tanaman pertanian dan tanaman di danau",
+    "choice5": "Tidak terjadi pengaruh pada tanaman pertanian dan tanaman di danau",
+    "answer": 3
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
-    "answer": 1
+    "question": "Lingkungan alam diperlukan untuk dapat mendukung program pembangunan. Oleh karena itu, kita perlu berupaya untuk...",
+    "choice1": "Menemukan SDA di lingkungan yang baru",
+    "choice2": "Memanfaatkan sumber energy alternatif ",
+    "choice3": "Mendaur ulang lingkungan yang sudah dipakai",
+    "choice4": "Menjaga kondisi lingkungan agar tetap seimbang",
+    "answer": 4
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
-    "answer": 1
+    "question": "Tindakan manusia yang mencerminkan pembangunan berkelnajutan adalah...",
+    "choice1": "Melakukan penggiliran tanaman",
+    "choice2": "Menerapkan system tumpang sari dalam bercocok tanam ",
+    "choice3": "Mengolah lahan pertanian dengan sistem surjan",
+    "choice4": "Melakukan pembalakan dengan sistem tebang pilih",
+    "answer": 4
   },
   {
-    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
-    "choice1": "Tuberkulosis",
-    "choice2": "Muntaber ",
-    "choice3": "Disentri",
-    "choice4": "Tifus",
-    "choice5": "Kolera",
+    "question": "Pemerintah menciptakan gerakan One Man One Tree khususnya di daerah perkotaan. Tiap individu disarankan untuk bisa menanam pohon di lahan mereka agar tercipta lingkungan hijau. lingkungan hijau di perkotaan berguna untuk...",
+    "choice1": "Menyerap karbondioksida hasil pembakaran bahan bakar fosil",
+    "choice2": "Meredam polusi suara ",
+    "choice3": "Mengurangi radiasi sinar ultraviolet",
+    "choice4": "Menyediakan fasilitas taman kota",
     "answer": 1
   }
 ]
