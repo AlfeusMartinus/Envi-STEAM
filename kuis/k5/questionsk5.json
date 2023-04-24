@@ -158,6 +158,7 @@
     "choice2": "Memanfaatkan sumber energy alternatif ",
     "choice3": "Mendaur ulang lingkungan yang sudah dipakai",
     "choice4": "Menjaga kondisi lingkungan agar tetap seimbang",
+    "choice5": "Merusak lingkungan sekitar",
     "answer": 4
   },
   {
@@ -166,6 +167,7 @@
     "choice2": "Menerapkan system tumpang sari dalam bercocok tanam ",
     "choice3": "Mengolah lahan pertanian dengan sistem surjan",
     "choice4": "Melakukan pembalakan dengan sistem tebang pilih",
+    "choice5": "Melakukan penebangan liar",
     "answer": 4
   },
   {
@@ -174,6 +176,7 @@
     "choice2": "Meredam polusi suara ",
     "choice3": "Mengurangi radiasi sinar ultraviolet",
     "choice4": "Menyediakan fasilitas taman kota",
+    "choice5": "Menyerap virus covid-19",
     "answer": 1
   }
 ]
