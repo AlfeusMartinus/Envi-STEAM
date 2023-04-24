@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Plastic, pecahan kaca, logam merupakan bahan yang secara alami tidak diuraikan karena bersifat...",
+    "choice1": "Toksik",
+    "choice2": "Biodegradable",
+    "choice3": "Non-biodegradable",
+    "choice4": "Korosif",
+    "choice5": "Renewable ",
+    "answer": 3
+  },
+  {
+    "question": "Indikator dalam mengetahui pencemaran udara kecuali...",
+    "choice1": "Warna",
+    "choice2": "Bau",
+    "choice3": "Zat dalam udara",
+    "choice4": "Kunang-kunang",
+    "choice5": "Kupu-kupu",
+    "answer": 4
+  },
+  {
+    "question": "Apabila suatu sungai tercemar insektisida maka kadar terbesar penimbunan bahan pencemar akan terdapat pada...",
+    "choice1": "Air tawar",
+    "choice2": "Ikan kecil",
+    "choice3": "Fitoplankton",
+    "choice4": "Ikan besar",
+    "choice5": "Zooplankton ",
+    "answer": 4
+  },
+  {
+    "question": "Peningkatan kadar gas karbondioksida di atmosfer yang berasal dari industry, kendaraan bermotor, dan pemukiman mampu menyebabkan...",
+    "choice1": "Penurunan suhu udara",
+    "choice2": "Kenaikan suhu udara",
+    "choice3": "Penurunan intensitas cahaya matahari",
+    "choice4": "Terganggunya proses fotosintesis",
+    "choice5": "Terjadinya hujan asam ",
+    "answer": 2
+  },
+  {
+    "question": "Efek pemanasan global akan memengaruhi ekosistem terumbu karang, adapun yang menyebabkan kematian terumbu karang adalah…",
+    "choice1": "Tingkat pemutihan karang yang rendah",
+    "choice2": "Konsentrasi oksigen yang meningkat",
+    "choice3": "Suhu air laut yang menurun",
+    "choice4": "Kadar garam yang menurun",
+    "choice5": "Air laut semakin basa ",
+    "answer": 4
+  },
+  {
+    "question": "Rokok merupakan salah satu penyebab pencemaran udara terutama di kota-kota besar. Pembakaran asap rokok menghasilkan partikel halus yang berbahaya bagi kesehatan tubuh. Hal yang bukan merupakan solusi dalam mengatasi permasalahan tersebut adalah...",
+    "choice1": "Berhenti merokok",
+    "choice2": "Mengurangi merokok",
+    "choice3": "Terapi penggunaan nikotin",
+    "choice4": "Tidak mencoba merokok",
+    "choice5": "Merokok di tempat khusus ",
+    "answer": 5
+  },
+  {
+    "question": "Perhatikan jenis limbah berikut ini : 1. Minyak goreng 2. Obat kadaluwarsa 3. Baterai telepon seluler 4. Gunting dan pisau 5. Sisa nasi dan sayuran 6. Kertas dan pecahan gelas 7. Cairan pembasmi nyamuk 8. Cairan pembersih porselen Berikut ini yang merupakan limbah bahan berbahaya dan beracun (B3) adalah...",
+    "choice1": "1,2,3, dan 4",
+    "choice2": "1,4,5, dan 6",
+    "choice3": "1,5,6, dan 8",
+    "choice4": "2,3,7, dan 8",
+    "choice5": "2,3,6, dan 5 ",
+    "answer": 4
+  },
+  {
+    "question": "Ekosistem merupakan suatu interaksi antar faktor biotik dan abiotic pada suatu kesatuan terintegrasi. Berikut yang bukan merupakan pernyataan yang benar mengenai agroekosistem adalah...",
+    "choice1": "Didominasi oleh tanaman sejenis",
+    "choice2": "Memiliki diversitas yang rendah",
+    "choice3": "Umur dan tipe tanaman berbeda",
+    "choice4": "Terdapat tambahan nutrisi",
+    "choice5": "Pengendalian hama",
+    "answer": 3
+  },
+  {
+    "question": "Limbah medis infeksius yang mengandung virus dan bakteri harus segera dimusnahkan dalam waktu 1 x 24 jam. Pemusnahan tersebut dapat dilakukan dengan cara...",
+    "choice1": "Dikubur dalam tanah",
+    "choice2": "Direndam dalam alcohol ",
+    "choice3": "Dihancurkan dengan mesin",
+    "choice4": "Pemanasan dengan temperature 1000 C",
+    "choice5": "Pembakaran dengan alat insinerator",
+    "answer": 5
+  },
+  {
+    "question": "Polusi udara menyebabkan terganggunya kelestarian makhluk hidup di bumi. Oleh karena itu tindakan yang nyata diperkukan untuk mencegah dan mengurangi polusi udara. Tindakan yang dapat dilakukan sebagai pelajar ialah...",
+    "choice1": "Menanam kembali hutan-hutan yang gundul",
+    "choice2": "Membuat taman taman hijau di daerah perkotaan",
+    "choice3": "Melakukan pemilahan sampah organik dan anorganik di sekolah",
+    "choice4": "Naik sepeda jika berpergian pada jarak yang tidak terlalu jauh",
+    "choice5": "Menutup pabrik yang dekat dengan kawasan pemukiman penduduk ",
+    "answer": 3
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Ekosistem perairan yang dekat dengan pemukiman mengakibatkan ekosistem perairan tersebut mudah tercemar oleh limbah rumah tangga. Cara mencegah peristiwa tersebut ialah...",
+    "choice1": "Menggunakan detergen",
+    "choice2": "Membuat aliran pembuangan",
+    "choice3": "Membatasi penggunaan bahan kimia",
+    "choice4": "Melarang pendirian rumah dekat sungai",
+    "choice5": "Melarang pengunaan bahan larut air",
+    "answer": 2
+  },
+  {
+    "question": "Penggunaan CFC pada alat pendingin, pengharum ruangan, dan penyemprotan obat pembasmi serangga secara terus-menerus akan berdampak terhadap lingkungan yaitu...",
+    "choice1": "Mengakibatkan kematian hewan",
+    "choice2": "Menyebabkan pemanasan global ",
+    "choice3": "Menyebabkan penipisan ozon",
+    "choice4": "Menyebabkan hujan asam",
+    "choice5": "Mengakibatkan efek rumah kaca",
+    "answer": 3
+  },
+  {
+    "question": "Penggunaan insektisida dan pemupukan secara berlebihan mampu menyebabkan pencemaran…",
+    "choice1": "Udara dan tanah",
+    "choice2": "Air dan udara ",
+    "choice3": "Air dan tanah",
+    "choice4": "Udara dan ozon",
+    "choice5": "Air dan udara",
+    "answer": 3
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  },
+  {
+    "question": "Penyakit dibawah ini yang tidak terkait dengan air tercemar ialah…",
+    "choice1": "Tuberkulosis",
+    "choice2": "Muntaber ",
+    "choice3": "Disentri",
+    "choice4": "Tifus",
+    "choice5": "Kolera",
+    "answer": 1
+  }
+]
