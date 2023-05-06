@@ -19,7 +19,6 @@ fetch("questionsk2.json")
         return res.json();
     })
     .then(loadedQuestions => {
-        console.log(loadedQuestions);
         questions = loadedQuestions;
         startGame();  
     })
