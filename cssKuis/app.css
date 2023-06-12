@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  background-color: #ecf5ff;
-  font-size: 62.5%;
+  /* background-color: #ecf5ff; */
+  background-image: url(/asset/bg-kuis.png);
+  background-size: cover;
+  font-size: 90%;
 }
 
 * {
@@ -21,7 +23,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: #3C486B;
   margin-bottom: 5rem;
 }
 
@@ -43,8 +45,8 @@ h3 {
 
 /* Utilities */
 .container {
-  width: 100vh;
-  height: 100vh;
+  /* width: 100vh; */
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,16 +87,16 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #3C486B;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #3C486B;
   background-color: white;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(60, 72, 107, 0.5);
   transform: scale(1.1);
   transition: 0.4s;
 }
@@ -119,7 +121,7 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(60, 72, 107, 0.5);
 }
 
 input::placeholder {
@@ -129,7 +131,41 @@ input::placeholder {
 @media screen and (max-width: 800px){
   :root {
     font-size: 50%;
-}
+    background-image: url(/asset/bg-kuis-mobile.png);
+    background-size: cover;
+  }
+  h1 {
+    font-size: 20.4rem;
+    color: #3C486B;
+    margin-bottom: 0rem;
+  }
+
+  h1 > span {
+    font-size: 9.2rem;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 7.2rem;
+    margin-bottom: 2%;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 5.8rem;
+    font-weight: 500;
+  }
+  .btn {
+    font-size: 30px;
+    padding: 20px 20px 20px;
+    width: 250px;
+  }
+  input {
+    margin-bottom: 19px;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 647px) {
